@@ -1,12 +1,11 @@
-
 body {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: #f2f2f2;
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -14,10 +13,8 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 .heading {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   line-height: 2;
 }
@@ -27,26 +24,23 @@ font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
 }
 
-.mypfont{
+.mypfont {
   font-size: 1.3rem;
 }
 
-
-.container-fluid{
+.container-fluid {
   padding: 7% 15%;
 }
-
-
 
 .navbar {
   padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-color: black !important;
+  color: black !important;
 }
 
 .nav-item {
@@ -55,11 +49,9 @@ color: black !important;
 
 .nav-link {
   font-size: 1.2rem;
-font-family: 'Montserrat', sans-serif;
-color: black !important;
+  font-family: 'Montserrat', sans-serif;
+  color: black !important;
 }
-
-
 
 #title {
   background-color: #dbfff7;
@@ -71,42 +63,44 @@ color: black !important;
   padding: 3% 15% 7%;
 }
 
-
 .title-image {
   width: 65%;
   position: absolute;
   right: 1%;
 }
 
-
-.align_{
+.align_ {
   text-align: left;
 }
+
 .buttonClass {
-	background-color:#050f00;
-	border-radius:42px;
-	border:1px solid #3b6e22;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	padding:16px 15px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #92b879;
-}
-.buttonClass:hover {
-	background-color:#48b807;
-}
-.buttonClass:active {
-	position:relative;
-	top:1px;
+  background-color: #050f00;
+  border-radius: 42px;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 16px 15px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #92b879;
 }
 
-.color2{
+.buttonClass:hover {
+  background-color: #48b807;
+}
+
+.buttonClass:active {
+  position: relative;
+  top: 1px;
+}
+
+.color2 {
   background-color: #bafff0;
 }
-.colorSection{
+
+.colorSection {
   background-color: #d1fff5;
 }
