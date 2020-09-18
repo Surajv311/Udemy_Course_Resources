@@ -1,10 +1,188 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>NFDS_Udemy</title>
-  </head>
-  <body>
+<html>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>My_Udemy_Courses</title>
+
+  <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- CSS/Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+<link rel="icon" href="images/srjFavicon.ico">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+
+        <a class="navbar-brand textColor" href="">Suraj's Courses</a>
+
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="heading">I'm a course instructor at Udemy.</h1>
+          <br />
+        <h2 class="heading"> I love writing blogs & make educational videos :)</h2>
+        <br>
+        <p class="mypfont"> You can also check my blogs at <a href="https://surajv.hashnode.dev/"> Hashnode</a> & <a href="https://dev.to/surajv">Dev.to </a> </p>
+
+      </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/mypicCi.png" alt="my photo">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Resources -->
+
+  <section class="color2" id="resources">
+
+    <div class="container-fluid">
+
+    <h3 class="heading">Course Resources for : "Numpy for Data Science"</h3>
+<br>
+<div class="align_">
+  <ul>
+    <li> <a href="https://colab.research.google.com/notebooks/intro.ipynb">Visit Google Colab here.</a></li>
+    <br>
+    <li> <a href="https://www.anaconda.com/products/individual">Download Jupyter Notebook from here.</a></li>
+<br>
+    <li> <a href="https://github.com/academic/awesome-datascience"> Check some good sources for Data Science.</a></li>
+  </ul>
+
+</div>
+<br>
+<a href="files/numpy.pdf">
+<button class="buttonClass" type="button" name="button"> Download Notebook (completed)</button>
+</a>
+    </div>
+  </section>
+
+
+
+
+  <section class="colorSection" id="contact">
+
+    <div class="container-fluid">
+
+      <h3 class="heading">Get in Touch ? </h3>
+
+<br>
+
+      <div class="row mt-1">
+
+        <div class="col-lg-4">
+          <div class="info">
+
+            <div class="email">
+
+              <h4>Email</h4>
+              <p class="pFont">uncodedtech@outlook.com</p>
+            </div>
+<br>
+            <div class="_media">
+             <a href=" https://twitter.com/imsurajv">
+              <h4>Twitter</h4> </a>
+              <p class="pFont">@imsurajv</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+
+
+
+          <form action="mailto:uncodedtech@outlook.com" method="post" role="form" class="email-form">
+
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" id="name" placeholder="Your Name" />
+
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" id="email" placeholder="Your Email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="subject" placeholder="Subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="text-center"><button type="submit" class="buttonClass">Send Message</button></div>
+          </form>
+
+        </div>
+
+      </div>
+
+
+
+
+      </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer class="" id="">
+
+
+      <p>© Copyright 2020 Suraj_v</p>
+
+  </footer>
+
+
+</body>
+
 </html>
